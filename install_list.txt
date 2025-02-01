@@ -1,0 +1,11 @@
+
+npm install -g @vue/cli
+vue create 프로젝트명 // 프로젝트 생성할 때만 진행
+npm install axios
+npm install vue-router
+npm install vuex --save
+npm install quill
+npm install vue-meta@alpha
+npm install sweetalert2 // alert창
+npm install @vueuse/head
+npm install dompurify // html 랜더링

@@ -3,13 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve --port 3030",
+    "build": "vue-cli-service build --watch",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vueuse/head": "^2.0.0",
+    "axios": "^1.7.9",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "dompurify": "^3.2.4",
+    "quill": "^2.0.3",
+    "sweetalert2": "^11.15.10",
+    "vue": "^3.2.13",
+    "vue-meta": "^3.0.0-alpha.10",
+    "vue-router": "^4.5.0",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
